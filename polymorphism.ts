@@ -5,7 +5,7 @@ function doubleMe(x:string[]);
 
 
 function doubleMe(x: any) {
-    if(x&& typeof x === "number") {
+    if(x && typeof x === "number") {
         console.log(x*2);
     } else if(x && typeof x === "string")
     {
