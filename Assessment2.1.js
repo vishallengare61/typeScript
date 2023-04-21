@@ -14,7 +14,8 @@ var DuplicateArray = /** @class */ (function () {
                 }
             }
         }
-        console.log(duplicateNumber);
+        console.log("Given Array is: " + arr);
+        console.log("The dupicate elements in array is:" + duplicateNumber);
     };
     return DuplicateArray;
 }());
