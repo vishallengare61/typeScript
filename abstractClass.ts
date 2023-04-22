@@ -1,5 +1,4 @@
 abstract class Car {
-    // simple method 
     Wheel() : string {
         return '4 wheeler';
     }
@@ -7,7 +6,6 @@ abstract class Car {
     CheckAC() : string {
         return 'Ac is available'
     }
-  // non abstract method 
     CallFacility() : string {
         return 'Call facility supported';
     }
